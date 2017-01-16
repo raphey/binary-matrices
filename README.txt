@@ -26,7 +26,7 @@ With the same set of transformations, there are three distinct 3x3 matrices:
 0 1 0 
 0 0 0 
 
-One of my programs found all distinct matrices using a mostly brute-force approach, whereas the others simply counted the number of distinct matrices by considering the group made up of all possible transformations and using Burnside’s Lemma/Polya Enumeration Theorem. This approach makes it possible to count things with lots of complicating symmetries, as with counting the number of distinct 6-bead bracelets that can be made using only red and blue beads. Here’s a great introduction to the topic:
+One of my programs finds all distinct matrices using a mostly brute-force approach, whereas the others simply count the number of distinct matrices by considering the group made up of all possible transformations and using Burnside’s Lemma/Polya Enumeration Theorem. Burnside's Lemma makes it possible to count things with lots of complicating symmetries, e.g. counting the number of distinct 6-bead bracelets that can be made using only red and blue beads. Here’s a great introduction to the topic:
 
 http://www.geometer.org/mathcircles/polya.pdf
 

@@ -4,8 +4,9 @@ This matrix enumeration tool was created to assist a colleague with his research
 In the abstract form, the idea is to count and list distinct binary n by n matrices, where two binary matrices are only distinct if they cannot be made identical with a series of transformations. These transformations may include row permutation, column permutation, row inversion (flipping every bit in a row), column inversion, and transposition. For example, if we allow all of the aforementioned transformations, there are only two distinct 2x2 matrices:
 
 ``
-0 0   
-0 0``   
+0 0  </br>
+0 0
+``   
 
 ``1 0``   
 ``0 0``   

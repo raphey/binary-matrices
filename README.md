@@ -46,7 +46,7 @@ The main function enumerate_matrices_col_inv_only(n) counts the number of n by n
 The main function enumerate_matrices(n) counts the number of n by n matrices that are distinct under row/col permutation and row/col inversion. I should probably submit this to OEIS. It works pretty quickly (< 5 min) up to N=12.
 
 
-#### matrix_ounter_w_trans.py
+#### matrix_counter_w_trans.py
 
 The main function enumerate_matrices_w_trans(n) counts the number of n by n matrices that are distinct under row/col permutation, row/col inversion, and transposition. This program confirms that the 6 by 6 matrices created by matrix_generator.py are correct, but that’s as high as it can go. Because transposition greatly complicates the orbits of the group, it’s no longer sufficient to use weighted partitions as a stand-in for row and column permutations.
 

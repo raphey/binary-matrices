@@ -3,25 +3,25 @@ This matrix enumeration tool was created to assist a colleague with his research
 
 In the abstract form, the idea is to count and list distinct binary n by n matrices, where two binary matrices are only distinct if they cannot be made identical with a series of transformations. These transformations may include row permutation, column permutation, row inversion (flipping every bit in a row), column inversion, and transposition. For example, if we allow all of the aforementioned transformations, there are only two distinct 2x2 matrices:
 
-0 0   
-0 0  
+``0 0``   
+``0 0``   
 
-1 0  
-0 0  
+``1 0``   
+``0 0``   
 
 With the same set of transformations, there are three distinct 3x3 matrices:
 
-0 0 0  
-0 0 0  
-0 0 0  
+``0 0 0``  
+``0 0 0``  
+``0 0 0``  
 
-1 0 0  
-0 0 0  
-0 0 0  
+``1 0 0``  
+``0 0 0``  
+``0 0 0``  
 
-1 0 0  
-0 1 0  
-0 0 0  
+``1 0 0``  
+``0 1 0``  
+``0 0 0``  
 
 One of my programs finds all distinct matrices using a mostly brute-force approach, whereas the others simply count the number of distinct matrices by considering the group made up of all possible transformations and using Burnside’s Lemma/Polya Enumeration Theorem. Burnside's Lemma makes it possible to count things with lots of complicating symmetries, e.g. counting the number of distinct 6-bead bracelets that can be made using only red and blue beads. [Here’s](http://www.geometer.org/mathcircles/polya.pdf) a great introduction to the topic.
 
